@@ -21,11 +21,14 @@
         tr{
             background-color: rgba(0, 0, 0, 0.171);
         }
-        td{
-            text-align: center;
+        td{            
             border: 1px solid black;
             padding: 8px;
-            vertical-align: top
+            vertical-align: middle; /*alinhamento vertical*/
+            text-align: center; /*alinhamento horizontal*/
+        }
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -47,12 +50,12 @@
         <tr><!--Segunda Linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr><!--Terceira Linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr><!--Quarta Linha-->
             <td>A4</td>
