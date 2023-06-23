@@ -14,6 +14,9 @@ html {
 menu {
     display: none;
 }
+article{
+    width: 100%;
+}
 article::after {
-    content: esse Arquivo foi impresso atraves do aluno do cursoemvideo.com;
+    content: "Esse artigo foi impresso atraves do aluno do cursoemvideo.com";
 }
